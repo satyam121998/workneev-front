@@ -24,6 +24,9 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/primeicons/primeicons.css",
+              "./node_modules/primeng/resources/themes/bootstrap4-light-blue/theme.css",
+              "./node_modules/primeng/resources/primeng.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "work-neev"
+    }
+  },
+  "defaultProject": "work-neev",
+  "cli": {
+    "analytics": "d1b264ae-68c4-4cd2-b7fd-6280b32b4254"
+  }
 }

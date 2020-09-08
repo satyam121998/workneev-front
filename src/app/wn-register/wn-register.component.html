@@ -1,0 +1,52 @@
+<body>
+    <div class="center">
+      <div class="form-group">
+          <h3><b>Sign Up</b> <br> it's <b>Q</b>uick and <b>E</b>asy</h3>
+        <div class="txt_field">
+            <span class="p-float-label">
+              <input type="text" class="form-control" [(ngModel)]="fullName" id="float-input" pInputText>
+              <label id= "label"  for="float-input">Full Name</label>
+            </span>
+          </div>
+        <div class="txt_field">
+          <span class="p-float-label">
+            <input type="text" class="form-control" [(ngModel)]="Email" id="float-input" pInputText>
+            <label id= "label"  for="float-input">Email</label>
+          </span>
+        </div>
+        <div class="txt_field">
+            <span class="p-float-label">
+              <input type="text" class="form-control" [(ngModel)]="phone" id="float-input" pInputText>
+              <label id= "label"  for="float-input">Phone</label>
+            </span>
+        </div>
+        <div class="txt_field">
+            <span class="p-float-label">
+              <input type="text" class="form-control" [(ngModel)]="Username" id="float-input" pInputText>
+              <label id= "label"  for="float-input">Username  eg:abc@xyz.com</label>
+            </span>
+        </div>
+        <div class="txt_field">
+            <span class="p-float-label">
+              <input pPassword type="password" class="form-control" [(ngModel)]="Password" />
+              <label for="float-input">Password</label>
+            </span>
+        </div>
+        <div class="txt_field">
+            <span class="p-float-label">
+              <input  type="password" class="form-control" [(ngModel)]=" repeatPass" id="float-input" pInputText required>
+              <label id= "label" for="float-input"> Repeat Password</label>
+            </span>
+          </div>
+       
+        <div class="log_btn">
+          <button type="submit" class="btn btn-success btn-lg btn-block" (click)="register()" style="width: 100" >Register</button>
+        </div>
+        <div class="reg">
+            <a routerLink='/'> Go To Login </a>
+          </div>
+        
+        
+      </div>
+    </div>
+  </body>

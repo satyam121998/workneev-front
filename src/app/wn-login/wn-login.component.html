@@ -1,0 +1,33 @@
+<body>
+  <div class="logo">
+    <h1> Company Logo </h1>
+  </div>
+  <div class="center">
+    <div class="form-group">
+      <div class="txt_field">
+        <span class="p-float-label">
+          <input type="text" class="form-control" [(ngModel)]="Username" id="float-input" pInputText>
+          <label id="label" for="float-input">Email or Phone</label>
+        </span>
+      </div>
+      <div class="txt_field">
+        <span class="p-float-label">
+          <input type="password" class="form-control" [(ngModel)]="Password" id="float-input" pInputText>
+          <label id="label" for="float-input">Password</label>
+        </span>
+      </div>
+
+      <div class="log_btn">
+        <button class="btn btn-primary btn-lg btn-block" (click)="login()" style="width: 100">Login</button>
+      </div>
+      <div class="reg">
+        <a routerLink='/fp'> Forgot Password </a>
+      </div>
+      <a routerLink="/register" id="a1">
+        <div class="log_btn">
+          <button class="btn btn-dark btn-lg btn-block" style="width: 100">Create New Account</button>
+        </div>
+      </a>
+    </div>
+  </div>
+</body>
